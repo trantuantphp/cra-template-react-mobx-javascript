@@ -15,7 +15,13 @@
         "template",
         "template.json"
     ],
-    "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/trantuantphp/cra-template-react-mobx-javascript.git"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    },
     "dependencies": {
         "@craco/craco": "^5.6.4",
         "@testing-library/jest-dom": "^4.2.4",
