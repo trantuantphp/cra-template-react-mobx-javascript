@@ -1,0 +1,38 @@
+$s320: 'only screen and (width: 320px)';
+$s360: 'only screen and (width: 360px)';
+$screenMax375: 'only screen and (max-width: 375px)';
+$screenMax414: 'only screen and (max-width: 414px)';
+$screenMax480: 'only screen and (max-width: 480px)';
+$screenMax576: 'only screen and (max-width: 576px)';
+$screenMax768: 'only screen and (max-width: 768px)';
+
+
+@mixin screenMax375 {
+    @media #{$screenMax375} {
+        @content;
+    }
+}
+
+@mixin screenMax414 {
+    @media #{$screenMax414} {
+        @content;
+    }
+}
+
+@mixin screenMax480 {
+    @media #{$screenMax480} {
+        @content;
+    }
+}
+
+@mixin screenMax576 {
+    @media #{$screenMax576} {
+        @content;
+    }
+}
+
+@mixin screenMax768 {
+    @media #{$screenMax768} {
+        @content;
+    }
+}

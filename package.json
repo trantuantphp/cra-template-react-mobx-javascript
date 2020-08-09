@@ -1,0 +1,91 @@
+{
+    "name": "@trantuantphp/cra-template-javascript-mobx",
+    "version": "1.0.1",
+    "author": "Tuan Tran - trantuantphp@gmail",
+    "keywords": [
+        "react",
+        "create-react-app",
+        "template",
+        "mobx"
+    ],
+    "description": "React app template with Mobx by JavaScript",
+    "main": "template.json",
+    "license": "MIT",
+    "files": [
+        "template",
+        "template.json"
+    ],
+    "dependencies": {
+        "@craco/craco": "^5.6.4",
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.3.2",
+        "@testing-library/user-event": "^7.1.2",
+        "antd": "^4.5.3",
+        "axios": "^0.19.2",
+        "craco-less": "^1.17.0",
+        "eslint": "^6.6.0",
+        "i18next": "^19.6.3",
+        "less-loader": "^6.2.0",
+        "mobx": "^5.15.5",
+        "mobx-react": "^6.2.5",
+        "mobx-react-lite": "^2.0.7",
+        "node-sass": "^4.14.1",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-i18next": "^11.7.0",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "3.4.1"
+    },
+    "scripts": {
+        "start": "craco start",
+        "build": "craco build",
+        "test": "craco test",
+        "eject": "craco eject",
+        "lint": "npm run lint:js && npm run lint:prettier",
+        "format": "prettier --write src/**/*.{js,jsx,scss,json}",
+        "lint-staged": "lint-staged",
+        "lint-staged:js": "eslint --ext .js,.jsx",
+        "lint:fix": "eslint --fix --ext .js,.jsx, ./src",
+        "lint:js": "eslint --ext .js,.jsx, ./src",
+        "lint:prettier": "check-prettier lint",
+        "prettier": "prettier -c --write ./src"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "tsc --noEmit && lint-staged"
+        }
+    },
+    "lint-staged": {
+        "**/*.{js,jsx,tsx,ts,json}": [
+            "prettier --write",
+            "git add"
+        ],
+        "**/*.{js,jsx,ts,tsx}": "npm run lint-staged:js"
+    },
+    "devDependencies": {
+        "@babel/plugin-proposal-class-properties": "^7.10.4",
+        "@babel/plugin-proposal-decorators": "^7.10.5",
+        "@babel/preset-env": "^7.11.0",
+        "craco-alias": "^2.1.1",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-prettier": "^3.1.4",
+        "husky": "^4.2.5",
+        "lint-staged": "^10.2.11",
+        "prettier": "^2.0.5"
+    }
+}

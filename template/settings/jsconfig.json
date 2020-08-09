@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "baseUrl": "src",
+        "paths": {
+            "services/*": ["services/*", "dir"],
+            "routers/*": ["routers/*", "dir"],
+            "layouts/*": ["layouts/*", "dir"],
+            "pages/*": ["pages/*", "dir"],
+            "mobxW/*": ["mobxW/*", "dir"],
+            "components/*": ["components/*", "dir"],
+            "styles/*": ["styles/*", "dir"],
+            "assets/*": ["assets/*", "dir"],
+            "utils/*": ["utils/*", "dir"]
+        }
+    }
+}
