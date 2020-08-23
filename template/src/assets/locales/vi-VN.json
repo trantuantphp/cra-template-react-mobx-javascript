@@ -1,6 +1,5 @@
 {
-    "home": {
-      "hello_world": "Xin chào thế giới"
-    }
+  "home": {
+    "hello_world": "Xin chào thế giới"
   }
-  
+}

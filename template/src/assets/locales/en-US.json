@@ -1,6 +1,5 @@
 {
-    "home": {
-      "hello_world": "Hello World"
-    }
+  "home": {
+    "hello_world": "Hello World"
   }
-  
+}
