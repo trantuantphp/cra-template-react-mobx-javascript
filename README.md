@@ -1,31 +1,28 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br />
-This is a template of react app with [Typescript](https://www.typescriptlang.org/). Its state management library is [Mobx](https://mobx.js.org/).<br />
-After install this template, copy all files in folder "src/settings" to root folder, copy all key/value in file "src/utils/fix-package.json" to file package.json in root folder
+## Introduce
+This is a template for ReactJS applications, was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+It includes:
+  * Routing: [React Router Dom](https://reactrouter.com/web/guides/quick-start)
+  * State management: [Mobx](https://mobx.js.org) and [Mobx-react](https://mobx-react.js.org/)
+  * API control: [Axios](https://github.com/axios/axios)
+  * UI components: [Ant Design](https://ant.design/)
+  * Locale provider: [i18next](https://www.i18next.com/) and [react-i18next](https://react.i18next.com/)
+  * Customize CRA: [Craco](https://github.com/gsoft-inc/craco)
+  * Code convention: [ESlint](https://eslint.org/)
+  * Format convention: [Prettier](https://prettier.io/)
+  * Pre-commit: [Husky](https://github.com/typicode/husky)
 
-## Available Scripts
-In the project directory, you can run:
+## Requirements
+  - [Nodejs](https://nodejs.org/en/)
+  - [npx cli](https://www.npmjs.com/package/npx)
 
-### `npm start`
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Install
+  1. Open folder where you want to install in command line
+  2. `npx create-react-app project-name --template "@trantuantphp/cra-template-javascript-mobx"`
+  3. `cd project-name`
+  4. Copy all files in *settings* folder to *root* folder
+  5. Copy all **key** and **value** in ***package.dev.json*** file to ***package.json***
+  6. `npm install`
 
-### `npm test`
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-## Learn More
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Folder Structure
+After install successfully, you will get a project folder with structure
+  ![Folder Structure](./structure.JPG)
