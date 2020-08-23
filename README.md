@@ -25,5 +25,37 @@ It includes:
 
 ## Folder Structure
 After install successfully, you will get a project folder with structure:
-  
-  ![Folder Structure](./structure.JPG)
+ <div style="display: flex; justify-content: space-around">
+  <img src="./structure.JPG"/>
+  <div style="padding-top: 4rem">
+    <ul style="">
+      <li>
+        <i><b>assets</b></i>: images and locales
+      </li>
+      <li>
+        <i><b>components</b></i>: common components
+      </li>
+       <li>
+        <i><b>layouts</b></i>: layouts of app
+      </li>
+      <li>
+        <i><b>pages</b></i>: all pages of app
+      </li>
+      <li>
+        <i><b>routers</b></i>: routes with react-router-dom
+      </li>
+      <li>
+        <i><b>services</b></i>: configure for call api
+      </li>
+      <li>
+        <i><b>stores</b></i>: store and configure of Mobx
+      </li>
+      <li>
+        <i><b>styles</b></i>: common style by scss
+      </li>
+      <li>
+        <i><b>utils</b></i>: common utilities
+      </li>
+    </ul>
+  </div>
+ </div>
