@@ -1,5 +1,5 @@
 ## Introduce
-This is a template for ReactJS applications, was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+This is a template for ReactJS applications, was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 It includes:
   * Routing: [React Router Dom](https://reactrouter.com/web/guides/quick-start)
   * State management: [Mobx](https://mobx.js.org) and [Mobx-react](https://mobx-react.js.org/)
@@ -19,10 +19,11 @@ It includes:
   1. Open folder where you want to install in command line
   2. `npx create-react-app project-name --template "@trantuantphp/cra-template-javascript-mobx"`
   3. `cd project-name`
-  4. Copy all files in *settings* folder to *root* folder
-  5. Copy all **key** and **value** in ***package.dev.json*** file to ***package.json***
+  4. Copy all files in ***settings***  folder to ***root***  folder
+  5. Copy all **key** and **value** in ***package.dev.json***  to ***package.json***
   6. `npm install`
 
 ## Folder Structure
-After install successfully, you will get a project folder with structure
+After install successfully, you will get a project folder with structure:
+  
   ![Folder Structure](./structure.JPG)
